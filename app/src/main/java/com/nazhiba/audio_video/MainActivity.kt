@@ -2,7 +2,6 @@ package com.nazhiba.audio_video
 
 import android.media.MediaPlayer
 import android.os.Bundle
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -13,9 +12,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         mediaPlayer = MediaPlayer.create(this, R.raw.brook)
 
-        val button = findViewById<Button>(R.id.button)
-        button.setOnClickListener(){
-            mediaPlayer.start()
-        }
+//        val button = findViewById<Button>(R.id.button)
+//        button.setOnClickListener(){
+//            mediaPlayer.start()
+//        }
     }
 }
